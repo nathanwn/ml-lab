@@ -17,3 +17,9 @@ $ conda install --file requirements.txt
 ```sh
 $ conda env export --name ENVNAME > envname.yml
 ```
+
+## Create environment from a yaml file
+
+```
+$ conda env create -f envname.yml
+```
